@@ -219,7 +219,40 @@
             text-transform: capitalize;
         }
 
-       
+        .owl-theme .owl-controls {
+            margin-top: 0px;
+            margin-left: 10px;
+            text-align: center;
+        }
+
+        .owl-theme .owl-controls .owl-buttons div {
+            display: inline-block;
+            opacity: 1;
+            background: var(--section-1-bg-color);
+            color: #058283;
+            border-radius: 0;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 5px;
+        }
+
+        .owl-prev:before,
+        .owl-next:before {
+            content: url("./assets/images/left-side.png"); 
+            
+            font-size: 20px;
+        }
+
+        .owl-next:before {
+            content: url("./assets/images/right-side.png"); 
+            
+        }
+
+        #testimonial-div-css {
+            margin-left: 100px;
+        }
+
         @media only screen and (max-width: 939px) {
             #testimonial-div-css {
                 margin-left: 0px;
@@ -237,6 +270,7 @@
                 position: absolute;
                 top: 0%;
                 left: 32%;
+                opacity: 0.5;
             }
 
             .tab button {
@@ -1174,8 +1208,9 @@
                     <!-- <p>We are leaders in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.</p> -->
                 </div>
             </div>
+            
             <div class="col-md-offset-1 col-md-10" id='testimonial-div-css'>
-                <div id="testimonial-slider" class="owl-carousel">
+                <div id="testimonial-slider" >
                     <div class="testimonial">
                         <div class="pic">
                             <img src="./assets/images/logo-testimonial.png">
