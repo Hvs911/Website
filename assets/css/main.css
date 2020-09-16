@@ -4812,6 +4812,10 @@ footer .copyright p {
     #hidemobile2 {
         display: none;
     }
+    #hidemobile3 {
+        display: none;
+    }
+    
 
     footer .nav-item .nav-link a{
         justify-content: start;
