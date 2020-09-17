@@ -672,7 +672,7 @@ section.featured {
     position: relative;
 }
 
-section.featured:after {
+section.featured::after {
     content: '';
     position: absolute;
     z-index: 1;
@@ -680,7 +680,7 @@ section.featured:after {
     left: calc(50% - 70px);
     width: 150px;
     height: 60px;
-    background-image: url(/assets/textures/bullets.png);
+    background-image: url("../textures/bullets.png");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.25;
@@ -772,7 +772,7 @@ aside {
 }
 
 .container.header {
-    max-width: 1140px;
+    max-width: 1340px;
 }
 
 .container.header.full {
@@ -1914,7 +1914,7 @@ header .navbar-expand .navbar-brand .featured .first {
     display: flex;
     align-items: center;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .navbar-expand .navbar-nav .nav-link:not(.btn) {
@@ -2094,8 +2094,7 @@ header .navbar-expand .navbar-brand .featured .first {
 
 .menu .nav-link:not(.btn) {
     font-size: 1rem;
-    font-weight: 400;
-    border: 1px solid var(--primary-l-color);
+    font-weight: 700;
     color: var(--primary-p-color);
     display: inline-block;
     width: calc(100% - 12px);
@@ -4817,6 +4816,38 @@ footer .copyright p {
         justify-content: start;
     }
 
+    #btnpr1 {
+        margin-left: 30px;
+    }
+
+    #btnpr2 {
+        margin-left: 50px;
+    }
+
+    #btnpr3 {
+        margin-left: 30px;
+    }
+
+    .pricing .descriptionsec1 {
+        margin-left: 20px;
+    }
+
+    #yrcard1 {
+        margin-left: 70px;
+    }
+
+    #yrcard2 {
+        margin-left: 70px;
+    }
+
+    #yrcard3 {
+        margin-left: 70px;
+    }
+
+    #yrcard4 {
+        margin-left: 70px;
+    }
+
     
     /* #endregion Modal */
 }
@@ -4915,6 +4946,38 @@ footer .copyright p {
 
     footer .nav-item .nav-link {
         justify-content: start;
+    }
+
+    #btnpr1 {
+        margin-left: 30px;
+    }
+
+    #btnpr2 {
+        margin-left: 30px;
+    }
+
+    #btnpr3 {
+        margin-left: 10px;
+    }
+
+    .pricing .descriptionsec1 {
+        margin-left: 20px;
+    }
+
+    #yrcard1 {
+        margin-left: 45px;
+    }
+
+    #yrcard2 {
+        margin-left: 45px;
+    }
+
+    #yrcard3 {
+        margin-left: 45px;
+    }
+
+    #yrcard4 {
+        margin-left: 45px;
     }
 
     /* #endregion General */
