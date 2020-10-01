@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- ==============================================
+        Basic Page Needs
+        =============================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+
+    <title>About Us | Legal Workmate</title>
+
+    <meta name="description" content="Business, Consulting, Finance, Insurance, Startup and Technology">
+    <meta name="subject" content="Business, Consulting, Finance, Insurance, Startup and Technology">
+    <meta name="author" content="Codings">
+
+    <!-- ==============================================
+        Favicons
+        =============================================== -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+
+    <!-- ==============================================
+        Vendor Stylesheet
+        =============================================== -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/icons-fa.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/socialicons.css">
+
+    <!-- ==============================================
+        Custom Stylesheet
+        =============================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/faq.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- ==============================================
+        Theme Color
+        =============================================== -->
+    <meta name="theme-color" content="#21333e">
+
+    <!-- ==============================================
+        Theme Settings
+        =============================================== -->
+    <style>
+         :root {
+            --header-bg-color: #f9f9f9;
+            --nav-item-color: #21333e;
+            --hero-bg-color: #f9f9f9;
+            --section-1-bg-color: #eef4ed;
+            --section-2-bg-color: #111117;
+            --section-3-bg-color: #ffffff;
+            --section-4-bg-color: #111117;
+            --section-5-bg-color: #111117;
+            --section-6-bg-color: #ffffff;
+            --footer-bg-color: #111117;
+        }
+        
+        .justifyDiv {
+            width: 10px;
+            height: 10px;
+            float: left;
+            margin-right: 1.5rem;
+        }
+        
+        .tab {
+            overflow: hidden;
+        }
+        /* Style the buttons inside the tab */
+        
+        .tab button {
+            background-color: transparent;
+            text-align: center;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            text-transform: none;
+            margin-right: 1%;
+            color: #058283;
+        }
+        /* Create an active/current tablink class */
+        
+        .tab button.active {
+            position: relative;
+            z-index: 2;
+            padding: 10px 25px;
+            background-color: #CCE3DE;
+            color: #058283;
+            font-weight: 700;
+            -webkit-transition: all .4s ease-out 0s;
+            -o-transition: all .4s ease-out 0s;
+            -moz-transition: all .4s ease-out 0s;
+            transition: all .4s ease-out 0s;
+        }
+        
+        .tabcontent {
+            display: none;
+            margin-top: 3%;
+            margin-left: 3%;
+        }
+        
+         ::-webkit-scrollbar {
+            background: lightgray;
+            width: 7px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: gray;
+            border-radius: 30px;
+        }
+        
+        .testimonial {
+            text-align: center;
+            color: #F2EFE8;
+            margin: 80px 30px;
+            padding: 30px 40px;
+            border-radius: 30px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .testimonial:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #058283;
+            border-radius: 30px;
+            z-index: -1;
+        }
+        
+        .testimonial:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #CCE3DE;
+            border-radius: 30px;
+            transform: rotate(-7deg);
+            z-index: -2;
+        }
+        
+        .testimonial .pic {
+            border: 5px solid #F2EFE8;
+            display: inline-block;
+            margin-bottom: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .testimonial .pic img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        
+        .testimonial .testimonial-content {
+            font-size: 12px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .testimonial .testimonial-title a {
+            display: inline-block;
+            color: #F2EFE8;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        .testimonial .testimonial-title small {
+            color: #F2EFE8;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+        }
+        
+        .owl-theme .owl-controls {
+            margin-top: 0px;
+            margin-left: 10px;
+            text-align: center;
+        }
+        
+        .owl-theme .owl-controls .owl-buttons div {
+            display: inline-block;
+            opacity: 1;
+            background: var(--section-1-bg-color);
+            color: #058283;
+            border-radius: 0;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 5px;
+        }
+        
+        .owl-prev:before,
+        .owl-next:before {
+            content: url("./assets/images/left-side.png");
+            font-size: 20px;
+        }
+        
+        .owl-next:before {
+            content: url("./assets/images/right-side.png");
+        }
+        
+        #testimonial-div-css {
+            margin-left: 100px;
+        }
+        
+        @media only screen and (max-width: 939px) {
+            #testimonial-div-css {
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+            }
+            .testimonial .pic {
+                display: none;
+            }
+            .owl-theme .owl-controls {
+                text-align: center;
+                position: absolute;
+                top: 0%;
+                left: 32%;
+                opacity: 0.5;
+            }
+            .tab button {
+                width: 300px;
+                text-align: left;
+            }
+            .h4Div {
+                position: relative;
+                left: -5%;
+            }
+            .justifyDiv {
+                width: 10px;
+                height: 10px;
+                float: left;
+                margin-right: 1rem;
+            }
+            .textAlignH4 {
+                font-family: 'Open Sans', sans-serif;
+                overflow: hidden;
+                font-weight: 700;
+            }
+        }
+    </style>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '480305989301201');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=480305989301201&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 625700959 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-625700959"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-625700959'); </script>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader" data-timeout="2000" class="odd preloader counter">
+        <div data-aos="fade-up" data-aos-delay="500" class="row justify-content-center text-center items">
+            <div data-percent="100" class="radial">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+
+        <!-- Top Navbar -->
+        <nav class="navbar navbar-expand top">
+            <div class="container header">
+
+                <!-- Navbar Items [right] -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="callto:+919081686565" class="nav-link pl-0"><i class="fas fa-phone-alt ml-2"></i>&nbsp;+91 908-168-6565</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="callto:+919081696565" class="nav-link pl-0"><i class="fas fa-phone-alt ml-2"></i>&nbsp;+91 908-169-6565</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mailto:hello@legalworkmate.com" class="nav-link pl-0"><i class="fas fa-envelope ml-2"></i>&nbsp;hello@legalworkmate.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link pl-0"> | </a>
+                    </li>
+                </ul>
+
+                <!-- Navbar Icons -->
+                <ul class="navbar-nav icons">
+                    <li class="nav-item social">
+                        <a href="https://www.facebook.com/legalworkmate" target="_blank" class="nav-link pl-0"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item social">
+                        <a href="https://twitter.com/legalworkmate" target="_blank" class="nav-link pl-0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item social">
+                        <a href="https://www.instagram.com/legalworkmate/" target="_blank" class="nav-link pl-0"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+                <div class="ml-auto"></div>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="dashboard/index.html" class="nav-link pl-0" target="_blank">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About-Us.html" class="nav-link pl-0" target="_blank">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link pl-0" target="_blank">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dashboard/index.html" class="nav-link pl-0" target="_blank">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dashboard/index.html" class="nav-link pl-0" target="_blank">Blog</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand navbar-fixed sub">
+            <div class="container header">
+
+                <!-- Navbar Brand-->
+                <a class="navbar-brand light" href="index.html">
+                    <img src="assets/images/lwmlogo-dark.png" alt="Legal Workmate" style="width: 165px; height: 56px;">
+                </a>
+
+                <!-- Nav holder -->
+                <div class="ml-auto"></div>
+
+                <!-- Navbar Items -->
+                <ul class="navbar-nav items">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">START A BUSINESS <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="pvtltd.html" target="_blank" style="font-family: 'Open Sans', sans-serif;">PRIVATE LIMITED COMPANY</a>
+                                <a class="nav-link" href="LLP-Page.html" style="font-family: 'Open Sans', sans-serif;" target="_blank">LIMITED LIABILITY PARTNERSHIP </a>
+                                <a class="nav-link" href="OPC-Page.html" style="font-family: 'Open Sans', sans-serif;" target="_blank">ONE PERSON COMPANY </a>
+                                <a class="nav-link" href="Partnership-Inc.html" style="font-family: 'Open Sans', sans-serif;" target="_blank">PARTNERSHIP INCORPORATION </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">REGISTRATION <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" target="_blank" href="GST-Reg.html" style="font-family: 'Open Sans', sans-serif;">GST REGISTRATION</a>
+                                <a class="nav-link" target="_blank" href="PF-ESIC.html" style="font-family: 'Open Sans', sans-serif;">PF &AMP; ESIC REGISTRATION </a>
+                                <a class="nav-link" target="_blank" href="Trademark-Reg.html" style="font-family: 'Open Sans', sans-serif;">TRADEMARK REGISTRATION</a>
+                                <a class="nav-link" target="_blank" href="Udyam-Registration.html" style="font-family: 'Open Sans', sans-serif;">UDYAM (MSME) REGISTRATION</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">TAX FILING <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" target="_blank" href="gstRF.html" style="font-family: 'Open Sans', sans-serif;">GST RETURN FILING</a>
+                                <a class="nav-link" target="_blank" href="income-tax-return-filing.html" style="font-family: 'Open Sans', sans-serif;">INCOME TAX RETURN FILING</a>
+                                <a class="nav-link" target="_blank" href="tds-return-filling.html" style="font-family: 'Open Sans', sans-serif;">TDS RETURN FILING</a>
+                                <a class="nav-link" target="_blank" href="talk-to-expert-and-notice-reply.html" style="font-family: 'Open Sans', sans-serif;">TALK TO EXPERT AND NOTICE REPLY</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">MANDATORY COMPLIANCE <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" target="_blank" href="Complete-Startup-Package.html" style="font-family: 'Open Sans', sans-serif;">COMPLETE STARTUP PACKAGE</a>
+                                <a class="nav-link" target="_blank" href="Accounting.html" style="font-family: 'Open Sans', sans-serif;">ACCOUNTING</a>
+                                <a class="nav-link" target="_blank" href="Payroll-Compliance.html" style="font-family: 'Open Sans', sans-serif;">PAYROLL COMPLIANCE</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">ANNUAL ROC COMPLIANCE <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" target="_blank" href="New-Company-ROC-Compliance.html" style="font-family: 'Open Sans', sans-serif;">NEW COMPANY ROC COMPLIANCE</a>
+                                <a class="nav-link" target="_blank" href="ROC-Compliance-For-Company.html" style="font-family: 'Open Sans', sans-serif;">ROC COMPLIANCE FOR COMPANY</a>
+                                <a class="nav-link" target="_blank" href="ROC-Compliance-LLP.html" style="font-family: 'Open Sans', sans-serif;">ROC COMPLIANCE FOR LLP</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" id="hideSlide">
+                        <a href="dashboard/index.html" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">DASHBOARD</a>
+                        <a href="About-Us.html" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">ABOUT US</a>
+                        <a href="#contact" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">CONTACT US</i></a>
+                        <a href="dashboard/index.html" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">LOGIN</a>
+                        <a href="dashboard/index.html" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">BLOG</a>
+                    </li>
+                </ul>
+                <!-- Navbar Toggle -->
+                <ul class="navbar-nav toggle">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                            <i class="icon-menu m-0"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+    <section id="slider" class="hero p-0">
+        <div class="swiper-container full-slider animation slider-h-100 slider-h-auto">
+
+            <!-- Media -->
+            <img src="assets/images/Aboutus-Slider.png" alt="Full Image" class="full-image" data-mask="40">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-center">
+
+                    <div class="slide-content row">
+                        <div class="col-12 d-flex justify-content-start inner">
+                            <div class="left text-left">
+
+                                <!-- Content -->
+                                <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text"><br><span class="featured"><span>About Legal Workmate</span></span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Why choose us? -->
+    <section id="services" class="section-1 offers featured">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 align-self-center text-center text-md-left">
+                    <span class="pre-title m-auto ml-md-0">AIMFOX TECHNOLOGY PRIVATE LIMITED</span>
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Looking for a perfect Legal Consultancy ?</span></span>
+                    </h2>
+                    <h2 style="font-family: 'Lato', sans-serif;">You've just found it - <span class="featured"><span>We are Legal Workmate !</span></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center items" style="margin-top: -40px;">
+                <div class="col-12 col-md-6 col-lg-4 item">
+                    <div class="card">
+                        <i class="icon icon-trophy featured"></i>
+                        <h4 style="font-family: 'Lato', sans-serif;">Top Class CA's</h4>
+                        <p style="font-family: 'Open Sans', sans-serif;">A Perfect Ensemble of Experts</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item">
+                    <div class="card">
+                        <i class="icon icon-rocket featured"></i>
+                        <h4 style="font-family: 'Lato', sans-serif;">Rapid Approach</h4>
+                        <p style="font-family: 'Open Sans', sans-serif;">Solutions when you need them</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item">
+                    <div class="card">
+                        <i class="icon icon-bulb featured"></i>
+                        <h4 style="font-family: 'Lato', sans-serif;">Ready for Brainstorming</h4>
+                        <p style="font-family: 'Open Sans', sans-serif;">Solutions that fit your situations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Single -->
+    <section id="single" class="section-6 single featured">
+        <div class="container">
+            <div class="row" style="margin-top: -40px;">
+
+                <!-- Main -->
+                <div class="col-12 col-lg-8 p-0 align-self-top text">
+                    <div class="row intro m-0">
+                        <div class="col-12">
+                            <span class="pre-title m-0">COMPLIANCES MADE EASY</span>
+                            <h2 style="font-family: 'Lato', sans-serif;">How we came up with :</h2>
+                            <h2 style="font-family: 'Lato', sans-serif; margin-top: -10px;"><span class="featured">Building Legal Workmate<span></span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <blockquote style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Having involved in the consultancy business, we found that most people who want to start a business are having following issues. Ignorant of legal compliance of their business or are not able to afford services of Chartered
+                                Accountants, Company Secretary and Legal Professionals or Accountants are having lack of proper knowledge or facing difficulty in retaining the accounting staff or have to visit all the consultants separately are tired
+                                of that.</blockquote>
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">To overcome this problem, we established Aimfox Group that consist of a Team of Accountants, Chartered Accountant, Company Secretary, and Lawyers under a single roof. We also got engaged with the practising professionals for
+                                certain compliance throughout India.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sidebar -->
+                <aside class="col-12 col-lg-4 pl-lg-5 p-0 float-right sidebar">
+
+                    <!-- Services -->
+                    <div class="row item widget-services" style="margin-top: 40px;">
+                        <div class="col-12 align-self-center">
+                            <h4 class="title"></h4>
+                            <div class="quote">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                                        <a href="#"><i class="icon icon-trophy"></i></a>
+                                        <div class="list-group-content">
+                                            <h4 style="font-family: 'Open Sans', sans-serif;">Top Class CA's</h4>
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                                        <a href="#"><i class="icon icon-rocket"></i></a>
+                                        <div class="list-group-content">
+                                            <h4 style="font-family: 'Open Sans', sans-serif;">Rapid Approach</h4>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-start align-items-center">
+                                        <a href="#"><i class="icon icon-bulb"></i></a>
+                                        <div class="list-group-content">
+                                            <h4 style="font-family: 'Open Sans', sans-serif;">Ready for Brainstorming</h4>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section id="services" class="section-1 offers">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>About Our Team</span></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center items">
+                <div class="col-12 col-md-6 item">
+                    <div class="card" style="background-color: #38394E;">
+                        <i class="icon featured icon-book-open" style="color: #058283; background-color: #eef4ed;"></i>
+                        <h4 style="font-size: 22px; color: #eef4ed; font-family: 'Open Sans', sans-serif;">Team of Accountants &amp; GST Practitioners</h4>
+                        <p style="color: #eef4ed; font-family: 'Open Sans', sans-serif;">We have developed a highly trained and experienced team of the Accountants and GST Practitioners to take care of your day to day compliance work. Most of our team consist of Semi-qualified Chartered Accountants and Company Secretary who is not only well trained but also well experienced. Every customer of us is assigned will be assigned with a dedicated GST Practitioner or Accountant for all his compliance.</p>
+                        <p style="color: #eef4ed;"></p>
+                        <p style="color: #eef4ed;"></p>
+                        <p style="color: #eef4ed;"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 item">
+                    <div class="card">
+                        <i class="icon featured icon-briefcase"></i>
+                        <h4 style="font-size: 22px; font-family: 'Open Sans', sans-serif;">Practising Chartered Accountants and Firms</h4>
+                        <p style="font-family: 'Open Sans', sans-serif;">Since few of the attestation functions can only be taken by Practicing Chartered Accountants we have tie-ups with various CA firms across India for this work, and they are well versed with our process and ethics. So there is no need to do multiple visits and paying considerable fees to Chartered Accountant in your city.</p>
+                        <p style="font-family: 'Open Sans', sans-serif;"></p>
+                        <p style="font-family: 'Open Sans', sans-serif;"></p>
+                        <p style="font-family: 'Open Sans', sans-serif;"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center items">
+                <div class="col-12 col-md-6 col-lg-4 item">
+                    <div class="card">
+                        <i class="icon featured icon-user"></i>
+                        <h4 style="font-size: 22px; font-family: 'Open Sans', sans-serif;">Team of Company Secretaries</h4>
+                        <p style="font-family: 'Open Sans', sans-serif;">Like a team of Chartered Accountant, we have an Inhouse and practising Company Secretary associated with us for providing the service in most professional manner. In case of larger organization we can also offer you a whole-time company secretary for the compliance work.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item">
+                    <div class="card">
+                        <i class="icon featured icon-wallet"></i>
+                        <h4 style="font-size: 22px; font-family: 'Open Sans', sans-serif;">Team of Chartered Accountants</h4>
+                        <p style="font-family: 'Open Sans', sans-serif;">Every team of GST Practitioners and Accountants are lead by a Chartered Accountant well versed in that field. Further for large clients, we also offer a Chartered Accountants as a Virtual CFO who takes care of CFO service for growing startups.</p>
+                        <p style="color: #eef4ed;"></p>
+                        <p style="color: #eef4ed;"></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 item">
+                    <div class="card" style="background-color: #38394E;">
+                        <i class="icon featured icon-screen-desktop" style="color: #058283; background-color: #eef4ed;"></i>
+                        <h4 style="font-size: 22px; color: #eef4ed;">Team of IT Professional</h4>
+                        <p style="color: #eef4ed; font-family: 'Open Sans', sans-serif;">In order to maintain data security and use of technology, we have developed a team of IT professionals who continuously work in this area. The team makes sure that every small client if able to get their compliance work with minimum hindrance and burden.</p>
+                        <p style="color: #eef4ed;"></p>
+                        <p style="color: #eef4ed;"></p>
+                        <p style="color: #eef4ed;"></p>
+                        <p style="color: #eef4ed;"></p>
+                        <p style="color: #eef4ed;"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section-6 highlights image-right counter skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text items">
+                    <div data-aos="fade-up" class="row intro">
+                        <div class="col-12 p-0">
+                            <span class="pre-title m-auto m-md-0">WE WILL DO YOUR</span>
+                            <h2 style="font-family: 'Lato', sans-serif;">Registration, Income tax and GST returns, and Accounting</h2>
+                            <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Actually No !!</span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <p style="font-family: 'Open Sans', sans-serif; text-align: justify;">We will make you will get your entity which is suitable for you. We don’t just file your income tax, GST, or other returns but we will make sure you ate following legal compliance and make sure at a lesser cost.</p>
+                    <p style="font-family: 'Open Sans', sans-serif; text-align: justify;">We don’t just make your accounting records but we make your financial data more reliable, which gives a true view of your business.</p>
+                    <p style="font-family: 'Lato', sans-serif;"><strong>We are Legal Workmate !!</strong></p>
+                </div>
+                <div class="col-12 col-md-6 p-0 image">
+                    <img src="assets/images/About-1.png" class="fit-image" alt="Fit Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fun Facts -->
+    <section id="funfacts" class="section-4 odd counter funfacts">
+        <video class="full-image to-bottom grayscale" data-mask="70" src="assets/images/Funfacts.mp4" autoplay muted loop></video>
+        <div class="container" style="margin-top: -40px;">
+            <div class="row mb-md-5 text-center">
+                <div class="col-12">
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Results</span></span> in Numbers</h2>
+                </div>
+            </div>
+            <div data-aos-id="counter" data-aos="fade-up" data-aos-delay="200" class="row justify-content-center text-center items">
+                <div class="col-12 col-md-6 col-lg-3 item">
+                    <div data-percent="150" class="radial">
+                        <span></span>
+                    </div>
+                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">Companies</h4>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 item">
+                    <div data-percent="1000" class="radial">
+                        <span></span>
+                    </div>
+                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">Clients</h4>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 item">
+                    <div data-percent="7" class="radial">
+                        <span></span>
+                    </div>
+                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">Years of Experience</h4>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 item">
+                    <div data-percent="15" class="radial">
+                        <span></span>
+                    </div>
+                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">Employees</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="blog" class="section-1 showcase blog-grid filter-section projects featured">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 style="font-family: 'Lato', sans-serif;">What our <span class="featured">Customers<span></span></span> Say About Us ?</h2>
+                </div>
+            </div>
+            <div class="col-md-offset-1 col-md-10" id='testimonial-div-css' style="margin-top: -50px; margin-bottom: -40px;">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " We had a wonderful experience and they were kind enough to adjust when we decide to change plan and other details. Always calm and cooperative even when we keep asking several questions over and over again. Great experience and would surely recommend
+                                the service and looking forward for a fruitful and good partnership for times to come. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">ADIL GAE</a>
+                            <small>- DIRECTOR </small>
+                        </h3>
+                        <p style="font-size: 14px;">PARSHEEN ENTERPRISES PRIVATE LIMITED</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I didn't know anything about how to open Pvt LTD n all.. starting from a scratch he helped me and did all work behalf of me. He will guide you from basics and what's good and what's not n all..had a great experience definitely in future also I will
+                                get my work done only from him. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">TIRTH KUMAR</a>
+                            <small>- DIRECTOR</small>
+                        </h3>
+                        <p style="font-size: 14px;"> CLAVIAN HEALTHCARE PRIVATE LIMITED</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I had got 2 of my private limited companies registered via Mr. Aman Parmar of Legal work mate. The experience was very good. The staff of legal work mate is very cooperative and fast. I shall be using their services again soon when we get GST filing
+                                done. Thanks. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">MIHIR SHAH</a>
+                            <small>- DIRECTOR</small>
+                        </h3>
+                        <p style="font-size: 14px;">GOLDENHORDE PRODUCTS PRIVATE LIMITED</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">" Most challenging part of the compliance for me in Mumbai was to finding an accountant and retaining him. Legal Workmate not only solved that problem of us but also co-ordinates with, practising chartered accountant associated
+                                with them for statutory audits "</p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">NITIN GUPTA</a>
+                            <small>- Managing Director</small>
+                        </h3>
+                        <p style="font-size: 14px;">MEDERAL PHARMACEUTICAL PRIVATE LIMITED</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " Legal Workmate helped me to start a section 8 company and takes care of all the companies’ compliance. Best part is I don’t have to visit separate accountant, company secretary, and chartered accountant anymore."
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">CHIRAG MAKWANA</a>
+                            <small>- Director</small>
+                        </h3>
+                        <p style="font-size: 14px;">Labour Employment and Environment Development Council</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " Legal Workmate (Aimfox Group) is highly recommended for NRI who don’t want to outsource all their compliance work. They provide me with all GST services like issuing e-way bill to refund application and QuickBooks accounting. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">PRANAB MOHAPATRA</a>
+                            <small>- Managing Partner</small>
+                        </h3>
+                        <p style="font-size: 14px;">VIERA CONSULTING SERVICES LLP</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I have used multiple offline and Online CA service. But, Services of Legal Workmate is the best of them due to their expertise in the domain, speed of delivery and business-friendly rates charged by them. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">MEHUL DESAI</a>
+                            <small>- Director</small>
+                        </h3>
+                        <p style="font-size: 14px;">SKYART PAINTS PVT LTD </p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I highly recommend Legal Workmate for new startups due to their swift and pocket-friendly services. Best part is our manager also provide us E-Way bill generation services, which is best for a person like me who wants to continue the MNC job and run
+                                business. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">PRASHANT PARMAR</a>
+                            <small>- Partner</small>
+                        </h3>
+                        <p style="font-size: 14px;">TECH SYSTEMS</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I highly recommend legal workmate for filing ITR. Their team help us with ITR filling of college professors and provide us with the best tax saving Investments Plans for risk neutral returns. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">AJAY SOLANKI</a>
+                            <small>- PROFESSOR</small>
+                        </h3>
+                        <p style="font-size: 14px;"></p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " The team helped our organisation from Incorporation of the company online to closing our books of accounts. All the directors of Misva Fire highly recommend Legal Workmate (Aimfox Group). "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">HIREN AMIN</a>
+                            <small></small>
+                        </h3>
+                        <p style="font-size: 14px;">MISVA FIRE SERVICE PVT LTD</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " Your company is like miracle happend to me. Saved my 30k, and also got connected with Developers. I am still wondering. How your company is so Cost Efficient in providing legal services?! "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">UTSAV CHANDNANI </a>
+                            <small>- Director </small>
+                        </h3>
+                        <p style="font-size: 14px;"> TRIALBASE TECHNOLOGY PVT LTD </p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I highly recommend legal workmate for filing ITR. Their team help us with ITR filling of college professors and provide us with the best tax saving Investments Plans for risk neutral returns. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">PRASHANT PARMAR </a>
+                            <small>- Partner </small>
+                        </h3>
+                        <p style="font-size: 14px;"> TECH SYSTEMS </p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#testimonial-slider').owlCarousel({
+                items: 1,
+                itemsDesktop: [1000, 1],
+                itemsDesktopSmall: [979, 1],
+                itemsTablet: [768, 1],
+                pagination: false,
+                navigation: true,
+                navigationText: ["", ""],
+                slideSpeed: 1000,
+                autoPlay: true
+            });
+        });
+    </script>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section-6 form contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 pr-md-5 align-self-center text">
+                    <div class="row intro" style="margin-top: -45px;">
+                        <div class="col-12 p-0">
+                            <span class="pre-title m-0">Send a message</span>
+                            <h2>Get in <span class="featured"><span>Touch</span></span>
+                            </h2>
+                            <p>We will respond to your message as soon as possible.</p>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: -30px;">
+                        <div class="col-12 p-0">
+                            <form action="mailto:hello@legalworkmate.com" id="nexgen-simple-form" class="nexgen-simple-form">
+                                <input type="hidden" name="section" value="nexgen_form">
+
+                                <input type="hidden" name="reCAPTCHA">
+                                <!-- Remove this field if you want to disable recaptcha -->
+
+                                <div class="row form-group-margin">
+                                    <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                        <input type="text" name="name" class="form-control field-name" placeholder="Name">
+                                    </div>
+                                    <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                        <input type="email" name="email" class="form-control field-email" placeholder="Email">
+                                    </div>
+                                    <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                        <input type="text" name="phone" class="form-control field-phone" placeholder="Phone">
+                                    </div>
+                                    <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                        <i class="icon-arrow-down mr-3"></i>
+                                        <select name="info" class="form-control field-info">
+                                                <option value="" selected disabled>Are you a new client</option>
+                                                <option>Yes, I am a potenial new client</option>
+                                                <option>Yes, I am a business client</option>
+                                                <option>Yes, I am a private client</option>
+                                                <option>No, I've already had a consultation</option>
+                                                <option>No, I am a permanent client</option>
+                                            </select>
+                                    </div>
+                                    <div class="col-12 m-0 p-2 input-group">
+                                        <textarea name="message" class="form-control field-message" placeholder="Describe your case"></textarea>
+                                    </div>
+                                    <div class="col-12 col-12 m-0 pl-md-2">
+                                        <span class="form-alert"></span>
+                                    </div>
+                                    <div class="col-12 input-group m-0 p-2">
+                                        <a class="btn primary-button">SEND</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="contacts">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div style="width: 10px;height: 10px;  float: left;"> <i class="fas fa-phone-alt mr-2"></i>
+                                </div>
+                                <div style="margin: 0 3.5rem; font-family: 'Open Sans', sans-serif;"><a href="#" class="nav-link"> +91 908-168-6565</a>
+                                    <a href="#" class="nav-link" style="font-family: 'Open Sans', sans-serif;"> +91 908-169-6565</a></div>
+                            </li>
+                            <li class="nav-item">
+                                <div style="width: 10px;height: 10px;  float: left;"> <i class="fas fa-envelope mr-2"></i>
+                                </div>
+                                <div style="margin: 0 3.5rem; font-family: 'Open Sans', sans-serif;">
+                                    <a href="mailto:hello@legalworkmate.com" class="nav-link">For any queries :
+                                            Hello@legalworkmate.com</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div style="width: 10px;height: 10px;  float: left;"> <i class="fas fa-rupee-sign mr-2"></i>
+                                </div>
+                                <div style="margin: 0 3.5rem; font-family: 'Open Sans', sans-serif;">
+                                    <a href="mailto:accounts@legalworkmate.com" class="nav-link">For billing queries :
+                                            accounts@legalworkmate.com</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div style="width: 10px;height: 10px;  float: left;"> <i class="fas fa-paper-plane mr-2"></i> </div>
+                                <div style="margin: 0 3.5rem; font-family: 'Open Sans', sans-serif;">
+
+                                    <a href="mailto:partner@aimfoxgroup.com" class="nav-link">For partner program :
+                                            partner@aimfoxgroup.com</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <!-- Footer [content] -->
+        <section id="footer" class="odd footer offers">
+            <div class="container" style="margin-top: -70px;">
+                <div class="row">
+                    <div class="col-12 col-lg-3 footer-left">
+                        <!-- Navbar Brand-->
+                        <a class="navbar-brand" href="/">
+                            <img src="assets/images/logo.png" alt="Legal Workmate" style="width: 183px; height: 66px;">
+
+                        </a>
+
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a href="#contact"><img src="assets/images/startupindia-logo-300x90.png" style=" margin-top: 30px;" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <div style="font-weight: 500;">
+
+                                    <a href="mailto:partner@aimfoxgroup.com" class="nav-link">Our Company recognized by the Department of Industrial Policy and Promotion Government Of India – STARTUP INDIA</a>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="col-12 col-lg-9 p-0 footer-right">
+                        <div class="row items">
+                            <div class="col-12 col-lg-6 item">
+                                <div class="card">
+                                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">START A BUSINESS</h4>
+                                    <a href="pvtltd.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Private Limited Company</a>
+                                    <a href="OPC-Page.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>One Person Company</a>
+                                    <a href="LLP-Page.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Limited Liability Partnership</a>
+                                    <a href="Partnership-Inc.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Partnership Incorporation</a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 item">
+                                <div class="card">
+                                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">COMPLIANCE</h4>
+                                    <a href="Accounting.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Accounting</a>
+                                    <a href="Complete-Startup-Package.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Complete Startup Package</a>
+                                    <a href="New-Company-ROC-Compliance.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>New Company ROC Compliance</a>
+                                    <a href="Payroll-Compliance.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Payroll Compliance</a>
+                                    <a href="ROC-Compliance-For-Company.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>ROC Compliance for company</a>
+                                    <a href="ROC-Compliance-LLP.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>ROC Compliance for LLP</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 item">
+                                <div class="card">
+                                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">REGISTRATION</h4>
+                                    <a href="GST-Reg.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>GST Registration</a>
+                                    <a href="PF-ESIC.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>PF &amp; ESIC Registration</a>
+                                    <a href="Trademark-Reg.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Trademark Registration</a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 item">
+                                <div class="card">
+                                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">TAX FILING</h4>
+                                    <a href="gstRF.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>GST return Filing</a>
+                                    <a href="income-tax-return-filing.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Income Tax return Filing</a>
+                                    <a href="tds-return-filling.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>TDS return Filing</a>
+                                    <a href="talk-to-expert-and-notice-reply.html" target="_blank" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Talk to expert &amp; notice reply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Copyright -->
+        <section id="copyright" class="p-3 odd copyright" style="margin-top: -80px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 p-3 text-center text-lg-right">
+                        <!--
+                                Suggestion: Replace the text above with a description of your website.
+                             -->
+                    </div>
+                    <div class="col-12 col-md-12 p-3 text-left">
+                        <p style="font-family: 'Open Sans', sans-serif;">© 2020 Legal Workmate is product by <a href="#" target="_blank">AIMFOX TECHNOLOGY PRIVATE LIMITED</a> | <a href="Terms-Conditions.html" target="_blank">Terms &amp; Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+    <!-- Modal [search] -->
+    <div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="modal-body">
+                    <form class="row">
+                        <div class="col-12 p-0 align-self-center">
+                            <div class="row">
+                                <div class="col-12 p-0">
+                                    <h2>What are you looking for?</h2>
+                                    <div class="badges">
+                                        <span class="badge"><a href="#">Consulting</a></span>
+                                        <span class="badge"><a href="#">Audit</a></span>
+                                        <span class="badge"><a href="#">Assurance</a></span>
+                                        <span class="badge"><a href="#">Advisory</a></span>
+                                        <span class="badge"><a href="#">Financial</a></span>
+                                        <span class="badge"><a href="#">Capital Markets</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group">
+                                    <input type="text" class="form-control" placeholder="Enter Keywords">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group align-self-center">
+                                    <button class="btn primary-button">SEARCH</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal [sign] -->
+    <div id="sign" class="p-0 modal fade" role="dialog" aria-labelledby="sign" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="modal-body">
+                    <form action="/" class="row">
+                        <div class="col-12 p-0 align-self-center">
+                            <div class="row">
+                                <div class="col-12 p-0 pb-3">
+                                    <h2>Sign In</h2>
+                                    <p>Don't have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="col-12 p-0 input-group">
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group align-self-center">
+                                    <button class="btn primary-button">SIGN IN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal [register] -->
+    <div id="register" class="p-0 modal fade" role="dialog" aria-labelledby="register" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="modal-body">
+                    <form action="/" class="row">
+                        <div class="col-12 p-0 align-self-center">
+                            <div class="row">
+                                <div class="col-12 p-0 pb-3">
+                                    <h2>Register</h2>
+                                    <p>Have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group">
+                                    <input type="text" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="col-12 p-0 input-group">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="col-12 p-0 input-group">
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                                <div class="col-12 p-0 input-group">
+                                    <input type="password" class="form-control" placeholder="Confirm Password" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group align-self-center">
+                                    <button class="btn primary-button">REGISTER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal [map] -->
+    <div id="map" class="p-0 modal fade" role="dialog" aria-labelledby="map" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header absolute" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="modal-body p-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.123073808986!2d12.490042215441486!3d41.89021017922119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseu!5e0!3m2!1spt-BR!2sbr!4v1594148229878!5m2!1spt-BR!2sbr"
+                        width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal [responsive menu] -->
+    <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="menu modal-body">
+                    <div class="row w-100">
+                        <div class="items p-0 col-12 text-center">
+                            <!-- Append [navbar] -->
+                        </div>
+                        <div class="contacts p-0 col-12 text-center">
+                            <!-- Append [navbar] -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll [to top] -->
+    <div class="floating-container">
+        <div class="floating-button"><i class="material-icons" style="margin-top: 20px;">support_agent</i></div>
+        <div class="element-container">
+    
+            <a href="callto:+919081696565"> <span class="float-element tooltip-left">
+                    <i class="material-icons" style="align-items: center;">phone
+                    </i></a>
+            </span>
+            <a href="mailto:hello@legalworkmate.com"><span class="float-element">
+                    <i class="material-icons">email
+                    </i></a>
+            </span>
+            <a href="https://wa.me/+919081686565"><span class="float-element">
+                    <i class="material-icons">chat</i></a>
+            </span>
+        </div>
+    </div>
+
+
+    <!-- ==============================================
+        Google reCAPTCHA // Put your site key here
+        =============================================== -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+
+    <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+
+    <script>
+        const items = document.querySelectorAll(".accordion a");
+
+        function toggleAccordion() {
+            this.classList.toggle('active');
+            this.nextElementSibling.classList.toggle('active');
+        }
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
+    </script>
+
+    <!-- <script src="assets/js/vendor/jquery.min.js"></script> -->
+    <script src="assets/js/vendor/jquery.easing.min.js"></script>
+    <script src="assets/js/vendor/jquery.inview.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/ponyfill.min.js"></script>
+    <script src="assets/js/vendor/slider.min.js"></script>
+    <script src="assets/js/vendor/animation.min.js"></script>
+    <script src="assets/js/vendor/progress-radial.min.js"></script>
+    <script src="assets/js/vendor/bricklayer.min.js"></script>
+    <script src="assets/js/vendor/gallery.min.js"></script>
+    <script src="assets/js/vendor/shuffle.min.js"></script>
+    <script src="assets/js/vendor/cookie-notice.min.js"></script>
+    <script src="assets/js/vendor/particles.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/documents.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+    <!-- ==============================================
+        Particles
+        =============================================== -->
+    <script>
+        particles('squares', 'particles-1');
+    </script>
+
+</body>
+
+</html>

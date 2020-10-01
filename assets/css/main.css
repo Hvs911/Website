@@ -254,7 +254,22 @@ h1,
     -ms-word-wrap: break-word;
 }
 
+h1,
+.slide-content .titlemain {
+    margin-bottom: 1.5rem;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+}
+
 .titletwo {
+    margin-left: 20px;
+    color: #00b9e5;
+}
+
+.titlemain {
     margin-left: 20px;
     color: #00b9e5;
 }
@@ -296,6 +311,7 @@ h1 .featured:before {
 
 h1 .featured span {
     position: relative;
+    color: #3a3b4f;
 }
 
 h1 .featured.bottom {
@@ -648,21 +664,21 @@ section {
 }
 
 section.hero       { background-color: var(--hero-bg-color); }
-section.section-1  { background-color: var(--section-1-bg-color);  background-image: var(--section-1-bg-image); margin-top: -20px; margin-bottom: -20px; }
-section.section-2  { background-color: var(--section-2-bg-color);  background-image: var(--section-2-bg-image); margin-top: -20px; margin-bottom: -20px;}
-section.section-3  { background-color: var(--section-3-bg-color);  background-image: var(--section-3-bg-image); margin-top: -20px; margin-bottom: -20px;}
-section.section-4  { background-color: var(--section-4-bg-color);  background-image: var(--section-4-bg-image); margin-top: -20px; margin-bottom: -20px;}
-section.section-5  { background-color: var(--section-5-bg-color);  background-image: var(--section-5-bg-image); margin-top: -20px; margin-bottom: -20px;}
-section.section-6  { background-color: var(--section-6-bg-color);  background-image: var(--section-6-bg-image); }
-section.section-7  { background-color: var(--section-7-bg-color);  background-image: var(--section-7-bg-image); margin-top: -20px; margin-bottom: -20px;}
-section.section-8  { background-color: var(--section-8-bg-color);  background-image: var(--section-8-bg-image); }
-section.section-9  { background-color: var(--section-9-bg-color);  background-image: var(--section-9-bg-image); }
-section.section-10 { background-color: var(--section-10-bg-color); background-image: var(--section-10-bg-image); }
-section.section-11 { background-color: var(--section-11-bg-color); background-image: var(--section-11-bg-image); }
-section.section-12 { background-color: var(--section-12-bg-color); background-image: var(--section-12-bg-image); }
-section.section-13 { background-color: var(--section-13-bg-color); background-image: var(--section-13-bg-image); }
-section.section-14 { background-color: var(--section-14-bg-color); background-image: var(--section-14-bg-image); }
-section.section-15 { background-color: var(--section-15-bg-color); background-image: var(--section-15-bg-image); }
+section.section-1  { background-color: var(--section-1-bg-color);  background-image: var(--section-1-bg-image); margin-top: -50px; margin-bottom: -50px; }
+section.section-2  { background-color: var(--section-2-bg-color);  background-image: var(--section-2-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-3  { background-color: var(--section-3-bg-color);  background-image: var(--section-3-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-4  { background-color: var(--section-4-bg-color);  background-image: var(--section-4-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-5  { background-color: var(--section-5-bg-color);  background-image: var(--section-5-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-6  { background-color: var(--section-6-bg-color);  background-image: var(--section-6-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-7  { background-color: var(--section-7-bg-color);  background-image: var(--section-7-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-8  { background-color: var(--section-8-bg-color);  background-image: var(--section-8-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-9  { background-color: var(--section-9-bg-color);  background-image: var(--section-9-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-10 { background-color: var(--section-10-bg-color); background-image: var(--section-10-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-11 { background-color: var(--section-11-bg-color); background-image: var(--section-11-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-12 { background-color: var(--section-12-bg-color); background-image: var(--section-12-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-13 { background-color: var(--section-13-bg-color); background-image: var(--section-13-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-14 { background-color: var(--section-14-bg-color); background-image: var(--section-14-bg-image); margin-top: -50px; margin-bottom: -50px;}
+section.section-15 { background-color: var(--section-15-bg-color); background-image: var(--section-15-bg-image); margin-top: -50px; margin-bottom: -90px;}
 
 .footer {
     background-image: var(--footer-bg-image);
@@ -679,11 +695,12 @@ section.featured::after {
     top: calc(100% - 30px);
     left: calc(50% - 70px);
     width: 150px;
-    height: 60px;
+    height: 50px;
     background-image: url("../textures/bullets.png");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.25;
+    margin-top: -40px;
 }
 
 section.featured.right:before {
@@ -1914,7 +1931,7 @@ header .navbar-expand .navbar-brand .featured .first {
     display: flex;
     align-items: center;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navbar-expand .navbar-nav .nav-link:not(.btn) {
@@ -2039,6 +2056,10 @@ header .navbar-expand .navbar-brand .featured .first {
     border-radius: 0;
 }
 
+#headingmain {
+    font-size: 48px;
+}
+
 .dropdown-item.active, .dropdown-item:hover, .dropdown-item:active {
     color: inherit;
     text-decoration: none;
@@ -2127,7 +2148,7 @@ header .navbar-expand .navbar-brand .featured .first {
 
 .menu .dropdown .dropdown-menu .nav-item .nav-link {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 700;
     background: none;
     color: var(--primary-p-color);
     display: flex;
@@ -2136,7 +2157,6 @@ header .navbar-expand .navbar-brand .featured .first {
     vertical-align: top;
     padding: 0;
     margin: 0 5px 10px;
-    border-radius: 4px;
     text-align: left;
 }
 
@@ -2174,6 +2194,7 @@ header .navbar-expand .navbar-brand .featured .first {
     font-weight: 700;
     border: none;
     color: var(--primary-t-color);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .odd .menu .nav-link:first-child {
@@ -2648,7 +2669,7 @@ header .navbar-expand .navbar-brand .featured .first {
     display: block;
     border-radius: 10px;
     background-color: transparent;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #00b9e5;
     opacity: 0.5;
     outline: none;
     /* ! important is necessary to avoid conflict with the Swipper Slider. */
@@ -2659,12 +2680,12 @@ header .navbar-expand .navbar-brand .featured .first {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: var(--primary-color);
+    background-color: #00b9e5;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active:hover {
-    background-color: var(--primary-color);
+    background-color: #00b9e5;
 }
 
 .pagination {
@@ -4824,10 +4845,6 @@ footer .copyright p {
         margin-left: 50px;
     }
 
-    #btnpr3 {
-        margin-left: 30px;
-    }
-
     .pricing .descriptionsec1 {
         margin-left: 20px;
     }
@@ -4848,6 +4865,9 @@ footer .copyright p {
         margin-left: 70px;
     }
 
+    #headingmain {
+        font-size: 25px;
+    }
     
     /* #endregion Modal */
 }
@@ -4956,10 +4976,6 @@ footer .copyright p {
         margin-left: 30px;
     }
 
-    #btnpr3 {
-        margin-left: 10px;
-    }
-
     .pricing .descriptionsec1 {
         margin-left: 20px;
     }
@@ -4979,6 +4995,12 @@ footer .copyright p {
     #yrcard4 {
         margin-left: 45px;
     }
+
+    #Sliderlist {
+        font-size: 13px;
+    }
+
+
 
     /* #endregion General */
 }

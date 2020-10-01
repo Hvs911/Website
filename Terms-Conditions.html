@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <!-- ==============================================
+        Basic Page Needs
+        =============================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+
+    <title>Terms &amp; Conditions | Legal Workmate</title>
+
+    <meta name="description" content="Business, Consulting, Finance, Insurance, Startup and Technology">
+    <meta name="subject" content="Business, Consulting, Finance, Insurance, Startup and Technology">
+    <meta name="author" content="Codings">
+
+    <!-- ==============================================
+        Favicons
+        =============================================== -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+
+    <!-- ==============================================
+        Vendor Stylesheet
+        =============================================== -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/icons-fa.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
+    <link rel="stylesheet" href="assets/css/socialicons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- ==============================================
+        Custom Stylesheet
+        =============================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/faq.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- ==============================================
+        Theme Color
+        =============================================== -->
+    <meta name="theme-color" content="#21333e">
+
+    <!-- ==============================================
+        Theme Settings
+        =============================================== -->
+    <style>
+         :root {
+            --header-bg-color: #f9f9f9;
+            --nav-item-color: #21333e;
+            --hero-bg-color: #f9f9f9;
+            --section-1-bg-color: #eef4ed;
+            --section-2-bg-color: #111117;
+            --section-3-bg-color: #ffffff;
+            --section-4-bg-color: #111117;
+            --section-5-bg-color: #111117;
+            --section-6-bg-color: #ffffff;
+            --footer-bg-color: #111117;
+        }
+        
+        .justifyDiv {
+            width: 10px;
+            height: 10px;
+            float: left;
+            margin-right: 1.5rem;
+        }
+        
+        .tab {
+            overflow: hidden;
+        }
+        /* Style the buttons inside the tab */
+        
+        .tab button {
+            background-color: transparent;
+            text-align: center;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            text-transform: none;
+            margin-right: 1%;
+            color: #058283;
+        }
+        /* Create an active/current tablink class */
+        
+        .tab button.active {
+            position: relative;
+            z-index: 2;
+            padding: 10px 25px;
+            background-color: #CCE3DE;
+            color: #058283;
+            font-weight: 700;
+            -webkit-transition: all .4s ease-out 0s;
+            -o-transition: all .4s ease-out 0s;
+            -moz-transition: all .4s ease-out 0s;
+            transition: all .4s ease-out 0s;
+        }
+        
+        .tabcontent {
+            display: none;
+            margin-top: 3%;
+            margin-left: 3%;
+        }
+        
+         ::-webkit-scrollbar {
+            background: lightgray;
+            width: 7px;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background: gray;
+            border-radius: 30px;
+        }
+        
+        .testimonial {
+            text-align: center;
+            color: #F2EFE8;
+            margin: 80px 30px;
+            padding: 30px 40px;
+            border-radius: 30px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .testimonial:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #058283;
+            border-radius: 30px;
+            z-index: -1;
+        }
+        
+        .testimonial:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #CCE3DE;
+            border-radius: 30px;
+            transform: rotate(-7deg);
+            z-index: -2;
+        }
+        
+        .testimonial .pic {
+            border: 5px solid #F2EFE8;
+            display: inline-block;
+            margin-bottom: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .testimonial .pic img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        
+        .testimonial .testimonial-content {
+            font-size: 12px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .testimonial .testimonial-title a {
+            display: inline-block;
+            color: #F2EFE8;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        .testimonial .testimonial-title small {
+            color: #F2EFE8;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+        }
+        
+        .owl-theme .owl-controls {
+            margin-top: 0px;
+            margin-left: 10px;
+            text-align: center;
+        }
+        
+        .owl-theme .owl-controls .owl-buttons div {
+            display: inline-block;
+            opacity: 1;
+            background: var(--section-1-bg-color);
+            color: #058283;
+            border-radius: 0;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 5px;
+        }
+        
+        .owl-prev:before,
+        .owl-next:before {
+            content: url("./assets/images/left-side.png");
+            font-size: 20px;
+        }
+        
+        .owl-next:before {
+            content: url("./assets/images/right-side.png");
+        }
+        
+        #testimonial-div-css {
+            margin-left: 100px;
+        }
+        
+        @media only screen and (max-width: 939px) {
+            #testimonial-div-css {
+                margin-left: 0px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+            }
+            .testimonial .pic {
+                display: none;
+            }
+            .owl-theme .owl-controls {
+                text-align: center;
+                position: absolute;
+                top: 0%;
+                left: 32%;
+                opacity: 0.5;
+            }
+            .tab button {
+                width: 300px;
+                text-align: left;
+            }
+            .h4Div {
+                position: relative;
+                left: -5%;
+            }
+            .justifyDiv {
+                width: 10px;
+                height: 10px;
+                float: left;
+                margin-right: 1rem;
+            }
+            .textAlignH4 {
+                font-family: 'Open Sans', sans-serif;
+                overflow: hidden;
+                font-weight: 700;
+            }
+        }
+    </style>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '480305989301201');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=480305989301201&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 625700959 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-625700959"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-625700959'); </script>
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader" data-timeout="2000" class="odd preloader counter">
+        <div data-aos="fade-up" data-aos-delay="500" class="row justify-content-center text-center items">
+            <div data-percent="100" class="radial">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+
+        <!-- Top Navbar -->
+        <nav class="navbar navbar-expand top">
+            <div class="container header">
+
+                <!-- Navbar Items [right] -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="callto:+919081686565" class="nav-link pl-0"><i class="fas fa-phone-alt ml-2"></i>&nbsp;+91 908-168-6565</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="callto:+919081696565" class="nav-link pl-0"><i class="fas fa-phone-alt ml-2"></i>&nbsp;+91 908-169-6565</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="mailto:hello@legalworkmate.com" class="nav-link pl-0"><i class="fas fa-envelope ml-2"></i>&nbsp;hello@legalworkmate.com</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link pl-0"> | </a>
+                    </li>
+                </ul>
+
+                <!-- Navbar Icons -->
+                <ul class="navbar-nav icons">
+                    <li class="nav-item social">
+                        <a href="https://www.facebook.com/legalworkmate" target="_blank" class="nav-link pl-0"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item social">
+                        <a href="https://twitter.com/legalworkmate" target="_blank" class="nav-link pl-0"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item social">
+                        <a href="https://www.instagram.com/legalworkmate/" target="_blank" class="nav-link pl-0"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+
+                <div class="ml-auto"></div>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="dashboard/index.html" class="nav-link pl-0" target="_blank">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="About-Us.html" class="nav-link pl-0" target="_blank">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link pl-0" target="_blank">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dashboard/index.html" class="nav-link pl-0" target="_blank">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dashboard/index.html" class="nav-link pl-0" target="_blank">Blog</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand navbar-fixed sub">
+            <div class="container header">
+
+                <!-- Navbar Brand-->
+                <a class="navbar-brand light" href="index.html">
+                    <img src="assets/images/lwmlogo-dark.png" alt="Legal Workmate" style="width: 165px; height: 56px;">
+                </a>
+
+                <!-- Nav holder -->
+                <div class="ml-auto"></div>
+
+                <!-- Navbar Items -->
+                <ul class="navbar-nav items">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">START A BUSINESS <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="pvtltd.html" target="_blank" style="font-family: 'Open Sans', sans-serif;">PRIVATE LIMITED COMPANY</a>
+                                <a class="nav-link" href="LLP-Page.html" style="font-family: 'Open Sans', sans-serif;" target="_blank">LIMITED LIABILITY PARTNERSHIP </a>
+                                <a class="nav-link" href="OPC-Page.html" style="font-family: 'Open Sans', sans-serif;" target="_blank">ONE PERSON COMPANY </a>
+                                <a class="nav-link" href="Partnership-Inc.html" style="font-family: 'Open Sans', sans-serif;" target="_blank">PARTNERSHIP INCORPORATION </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">REGISTRATION <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" target="_blank" href="GST-Reg.html" style="font-family: 'Open Sans', sans-serif;">GST REGISTRATION</a>
+                                <a class="nav-link" target="_blank" href="PF-ESIC.html" style="font-family: 'Open Sans', sans-serif;">PF &AMP; ESIC REGISTRATION </a>
+                                <a class="nav-link" target="_blank" href="Trademark-Reg.html" style="font-family: 'Open Sans', sans-serif;">TRADEMARK REGISTRATION</a>
+                                <a class="nav-link" target="_blank" href="Udyam-Registration.html" style="font-family: 'Open Sans', sans-serif;">UDYAM (MSME) REGISTRATION</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">TAX FILING <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" target="_blank" href="gstRF.html" style="font-family: 'Open Sans', sans-serif;">GST RETURN FILING</a>
+                                <a class="nav-link" target="_blank" href="income-tax-return-filing.html" style="font-family: 'Open Sans', sans-serif;">INCOME TAX RETURN FILING</a>
+                                <a class="nav-link" target="_blank" href="tds-return-filling.html" style="font-family: 'Open Sans', sans-serif;">TDS RETURN FILING</a>
+                                <a class="nav-link" target="_blank" href="talk-to-expert-and-notice-reply.html" style="font-family: 'Open Sans', sans-serif;">TALK TO EXPERT AND NOTICE REPLY</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">MANDATORY COMPLIANCE <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" target="_blank" href="Complete-Startup-Package.html" style="font-family: 'Open Sans', sans-serif;">COMPLETE STARTUP PACKAGE</a>
+                                <a class="nav-link" target="_blank" href="Accounting.html" style="font-family: 'Open Sans', sans-serif;">ACCOUNTING</a>
+                                <a class="nav-link" target="_blank" href="Payroll-Compliance.html" style="font-family: 'Open Sans', sans-serif;">PAYROLL COMPLIANCE</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" id="extrares" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">ANNUAL ROC COMPLIANCE <i class="icon-arrow-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" target="_blank" href="New-Company-ROC-Compliance.html" style="font-family: 'Open Sans', sans-serif;">NEW COMPANY ROC COMPLIANCE</a>
+                                <a class="nav-link" target="_blank" href="ROC-Compliance-For-Company.html" style="font-family: 'Open Sans', sans-serif;">ROC COMPLIANCE FOR COMPANY</a>
+                                <a class="nav-link" target="_blank" href="ROC-Compliance-LLP.html" style="font-family: 'Open Sans', sans-serif;">ROC COMPLIANCE FOR LLP</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" id="hideSlide">
+                        <a href="dashboard/index.html" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">DASHBOARD</a>
+                        <a href="About-Us.html" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">ABOUT US</a>
+                        <a href="#contact" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">CONTACT US</i></a>
+                        <a href="dashboard/index.html" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">LOGIN</a>
+                        <a href="dashboard/index.html" target="_blank" class="nav-link2" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">BLOG</a>
+                    </li>
+                </ul>
+                <!-- Navbar Toggle -->
+                <ul class="navbar-nav toggle">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                            <i class="icon-menu m-0"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+    <section id="slider" class="hero p-0">
+        <div class="swiper-container full-slider animation slider-h-100 slider-h-auto">
+            <!-- Media -->
+            <img src="assets/images/Terms-Slider.png" alt="Full Image" class="full-image" data-mask="40">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide-center">
+
+                    <div class="slide-content row">
+                        <div class="col-12 d-flex justify-content-start inner">
+                            <div class="left text-left">
+
+                                <!-- Content -->
+                                <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text"><br><span class="featured"><span>Terms &amp; Conditions</span></span>
+                                </h1>
+                                <h1 data-aos="zoom-in" data-aos-delay="2000" class="titletwo effect-static-text">
+                                    Read Carefully</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Single -->
+    <section id="single" class="section-6 single featured">
+        <div class="container">
+            <div class="row">
+
+                <!-- Main -->
+                <div class="col-12 col-lg-12 p-0 align-self-top text">
+                    <div class="row intro m-0">
+                        <div class="col-12">
+                            <h2 style="font-family: 'Lato', sans-serif; margin-top: -10px;"><span class="featured">Accepting Terms &amp; Conditions<span></span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <blockquote style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">LegalWorkmate.com is a product by Aimfox Technologies Private Limited. (Called Legal Workmate from here onwards).</blockquote>
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">By going through our website and getting the data, information, resources, services, products, administrations and tools we provide, you understand and agree to accept and adhere to the following terms and conditions as stated
+                                in this policy (hereafter referred to as ‘user agreement’), along with the terms and conditions as stated in our privacy policy (please refer to the privacy policy section below for more information).</p>
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">We reserve the right to change this user agreement from time to time without notice. You acknowledge and agree that it is your responsibility to review this user agreement periodically to familiarize yourself with any modifications.
+                                Your continued use of this site after such modifications will constitute acknowledgment and agreement of the modified terms and conditions.</p>
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">If you wish to use the legal workmate services, you affirm that you are more than 18 years of age and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations, and warranties
+                                consequent to the creation of the documents, and are aware of the same. Kindly call us for further assistance.</p>
+                            <blockquote style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Legal workmate is not intended to be a source of advertising or solicitation and the contents of the website should not be construed as legal advice. Specifically, legal workmate does not provide any avenue for solicitation</blockquote>
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">The information provided in the ‘FAQ’ or by any other way does not amount to legal advice, such merely being commonly asked queries about tax planning’s, company incorporations, structure design, accounting and other services.
+                                Users are advised to consult a professional if they need specialized guidance on any of these services.</p>
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Except as otherwise provided, you acknowledge and agree that you have no right to modify, edit, copy, reproduce, create derivative works of, reverse engineer, alter, enhance or in any way exploit any of the forms in any manner,
+                                except for modifications in filling out the forms for your authorized use.</p>
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Reselling or distributing without permission amounts to a violation of legal workmate exclusive copyright and is liable to prosecution.</p>
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Disclaimer of representations by users: legal workmate makes no representation, guarantee, or warranty (express or implied) as to the legal ability, competence, or quality of representation which may be provided by any of the
+                                professionals or professional firms which are associated with or through this site or any affiliate thereof.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section id="services" class="section-1 offers featured">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Responsible Use and Conduct</span></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                        <li>To go through our resources and services, sometimes you need to provide certain information about yourself (such as identification, email, phone number, contact details, etc.). This information is required for any registration
+                            process or as part of your ability to use the resources. You agree that any information you provide will always be accurate, correct, and up to date.</li>
+                        <li>You are responsible for maintaining the confidentiality of any login information associated with any account you use to access our resources. Accordingly, you are responsible for all activities that occur under your account’s.</li>
+                        <li>Accessing (or attempting to access) any of our resources by any means other than through the means we provide, is strictly prohibited. You specifically agree not to access (or attempt to access) any of our Resources through any
+                            automated, unethical or unconventional means.</li>
+                        <li>Engaging in any activity that disrupts or interferes with our Resources, including the servers and/or networks to which our Resources are located or connected, is strictly prohibited.</li>
+                        <li>Endeavoring to copy, duplicate, reproduce, sell, trade, or resell our resources is strictly prohibited.</li>
+                        <li>You are solely responsible any consequences, losses, or damages that we may directly or indirectly incur or suffer due to any unauthorized activities conducted by you, as explained above, and may incur criminal or civil liability.</li>
+                    </ul>
+                    <br>
+                    <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">We may provide various open communication tools on our website, such as blog comments, blog posts, public chat, forums, message boards, newsgroups, product ratings and reviews, various social media services, etc. You understand that
+                        generally we do not pre-screen or monitor the content posted by users of these various communication tools, which means that if you choose to use these tools to submit any type of content to our website, then it is your personal
+                        responsibility to use these tools in a responsible and ethical manner. By posting information or otherwise using any open communication tools as mentioned, you agree that you will not upload, post, share or otherwise distribute
+                        any content that:</p><br>
+                    <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                        <li>Is illegal, threatening, defamatory, abusive, harassing, degrading, intimidating, fraudulent, deceptive, invasive, racist, or contains any type of suggestive, inappropriate, or explicit language;</li>
+                        <li>infringes on any trademark, patent, trade secret, copyright, or other proprietary right of any party;</li>
+                        <li>contains any type of unauthorized or unsolicited advertising;</li>
+                        <li>impersonates any person or entity, including any legal workmate employees or representatives.</li>
+                        <li>We have the right at our sole discretion to remove any content that, we feel in our judgment does not comply with this user agreement, along with any content that we feel is otherwise offensive, harmful, objectionable, inaccurate,
+                            or violates any 3rd party copyrights or trademarks. We are not responsible for any delay or failure in removing such content. If you post content that we choose to remove, you hereby consent to such removal and consent to waive
+                            any claim against us.</li>
+                        <li>We do not assume any liability for any content posted by you or any other 3rd party users of our website. However, any content posted by you using any open communication tools on our website, provided that it doesn’t violate or
+                            infringe on any 3rd party copyrights or trademarks, becomes the property of legal workmate, and as such, gives us a perpetual, irrevocable, worldwide, royalty-free, exclusive license to reproduce, modify, adapt, translate,
+                            publish, publicly display and/or distribute as we see fit. This only refers and applies to content posted via open communication tools as described, and does not refer to information that is provided as part of the registration
+                            process, necessary in order to use our resources. All information provided as part of our registration process is covered by our privacy policy.</li>
+                        <li>You agree to indemnify and hold harmless legal workmate a digital property of Aimfox technologies PVT LTD and its parent company and affiliates, and their directors, officers, managers, employees, donors, agents, and licensors,
+                            from and against all losses, expenses, damages and costs, including reasonable attorneys’ fees, resulting from any violation of this user agreement or the failure to fulfil any obligations relating to your account incurred
+                            by you or any other person using your account. We reserve the right to take over the exclusive defence of any claim for which we are entitled to indemnification under this user agreement. In such event, you shall provide us
+                            with such cooperation as is reasonably requested by us.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="single" class="section-6 single featured">
+        <div class="container">
+            <div class="row">
+
+                <!-- Main -->
+                <div class="col-12 col-lg-12 p-0 align-self-top text">
+                    <div class="row intro m-0">
+                        <div class="col-12">
+                            <h2 style="font-family: 'Lato', sans-serif; margin-top: -10px;"><span class="featured">Timeline for completion of work<span></span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Timelines mentioned for work completion are estimations and should not be construed as an agreed promise from Legal Workmate, work completion is dependent on multiple externalities such as government department etc and third-party
+                                vendors. Legal Workmate won’t be at risk for any immediate, backhanded, coincidental, considerable or model misfortune or harms which may be brought about by you as a consequence of utilizing our resources, or as an aftereffect
+                                of any progressions, information misfortune or defilement, cancellation, loss of access, or downtime to the full degree that appropriate restriction of obligation laws apply.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="single" class="section-1 single featured">
+        <div class="container">
+            <div class="row">
+
+                <!-- Main -->
+                <div class="col-12 col-lg-12 p-0 align-self-top text">
+                    <div class="row intro m-0">
+                        <div class="col-12">
+                            <h2 style="font-family: 'Lato', sans-serif; margin-top: -10px;"><span class="featured">Income tax return correctness<span></span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Legal workmate takes great care in ensuring the correctness of your income tax return. However, legal workmate provides no guarantee or warranty on the correctness of your income tax return. You are required to review your
+                                income tax return for ensuring correctness. You will not hold legal workmate responsible for any issue that arises from incorrect income tax return filing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="single" class="section-6 single featured">
+        <div class="container">
+            <div class="row">
+
+                <!-- Main -->
+                <div class="col-12 col-lg-12 p-0 align-self-top text">
+                    <div class="row intro m-0">
+                        <div class="col-12">
+                            <h2 style="font-family: 'Lato', sans-serif; margin-top: -10px;"><span class="featured">Goods and service tax (GST) compliance<span></span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Legal workmate takes great care in ensuring the correctness of your GST compliance. However, legal workmate provides no guarantee or warranty on the Correctness of your GST compliance. You are required to review your GST compliance
+                                for ensuring correctness. You will not hold legal workmate responsible for any issue that arises from incorrect GST compliance or GST Penalty or Refund problems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-1 offers featured">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Exclusion of warranties</span></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                        <li>Nothing in these terms, shall exclude or limit legal workmate warranty or liability for losses which may not be lawfully excluded or limited by applicable law. Some jurisdictions do not allow the exclusion of certain warranties
+                            or conditions or the limitation or exclusion of liability for loss or damage caused by negligence, breach of contract or breach of implied terms, or incidental or consequential damages. Accordingly, only the limitations which
+                            are lawful in your jurisdiction will apply to you and our liability will be limited to the maximum extent permitted by law.</li>
+                        <li>You expressly understand and agree that your use of the services is at your sole risk and that the services are provided “as is” and “as available.”</li>
+                        <li>In particular, legal workmate, its subsidiaries and affiliates, and its licensors do not represent or warrant to you that:</li>
+                        <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                            <li>Your use of the services will meet your requirements,</li>
+                            <li>Your use of the services will be uninterrupted, timely, secure or free from error,</li>
+                            <li>Any information obtained by you as a result of your use of the services will be accurate or reliable, and</li>
+                            <li>That defects in the operation or functionality of any software provided to you as part of the services will be corrected.</li>
+                        </ul>
+                        <li>Any material downloaded or otherwise obtained through the use of the services is done at your own discretion and risk and that you will be solely responsible for any damage to your computer system or other device or loss of data
+                            that results from the download of any such material.</li>
+                        <li>No advice or information, whether oral or written, obtained by you from legal workmate or through or from the services shall create any warranty not expressly stated in the terms.</li>
+                        <li>Legal workmate further expressly disclaims all warranties and conditions of any kind, whether express or implied, including, but not limited to the implied warranties and conditions of merchantability, fitness for a particular
+                            purpose and non-infringement.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-6 offers featured">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Limitation of liability</span></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Subject to overall provision in paragraph above, you expressly understand and agree that legal workmate, its subsidiaries and affiliates, and its licensors shall not be liable to you for:</p>
+                    <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                        <li>Any direct, indirect, incidental, special consequential or exemplary damages which may be incurred by you, however, caused and under any theory of liability. This shall include, but not be limited to, any loss of profit (whether
+                            incurred directly or indirectly), any loss of goodwill or business reputation, any loss of data suffered, cost of procurement of substitute goods or services, or other intangible loss;</li>
+                        <li>Any loss or damage which may be incurred by you, including but not limited to loss or damage as a result of:</li>
+                        <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                            <li>Any reliance placed by you on the completeness, accuracy or existence of any advertising, or as a result of any relationship or transaction between you and any advertiser or sponsor whose advertising appears on the services;</li>
+                            <li>Any changes which legal workmate may make to the services, or for any permanent or temporary cessation in the provision of the services (or any features within the services);</li>
+                            <li>The deletion of, corruption of, or failure to store, any content and other communications data maintained or transmitted by or through your use of the services;</li>
+                            <li>Your failure to provide legal workmate with accurate account information;</li>
+                            <li>Your failure to keep your password or account details secure and confidential;</li>
+                            <li>Any legal penalty, fine, fees, interest, liabilities or prosecution carried or charged by any revenue or other government authorities in or outside India on account of any error, omission or mistake in compliance or work carried
+                                on by legal workmate in any manner.</li>
+                            <li>Any legal liabilities, action or suit by any third party on you that may be on account of any error, omission or mistake in work or act or service provided by legal workmate whether directly or indirectly in any form or manner.</li>
+                            <li>Personal injury or property damage, caused by legal workmate ‘knowing and deliberate wrongdoing, or gross negligence, whether or not denominated tort, including negligence and strict liability,</li>
+                        </ul>
+                        <li>The limitations on legal workmate liability to you above shall apply whether or not legal workmate has been advised of or should have been aware of the possibility of any such losses arising.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="single" class="section-1 single featured">
+        <div class="container">
+            <div class="row">
+
+                <!-- Main -->
+                <div class="col-12 col-lg-12 p-0 align-self-top text">
+                    <div class="row intro m-0">
+                        <div class="col-12">
+                            <h2 style="font-family: 'Lato', sans-serif; margin-top: -10px;"><span class="featured">Dispute Resolution<span></span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">“Any dispute or difference whatsoever arising between the parties shall be settled by arbitration in accordance with the Rules of Arbitration of the Indian Council of Arbitration in Gujarat Jurisdiction only and the award made
+                                in pursuance thereof shall be binding on the parties.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="single" class="section-6 single featured">
+        <div class="container">
+            <div class="row">
+
+                <!-- Main -->
+                <div class="col-12 col-lg-12 p-0 align-self-top text">
+                    <div class="row intro m-0">
+                        <div class="col-12">
+                            <h2 style="font-family: 'Lato', sans-serif; margin-top: -10px;"><span class="featured">Member account : Password and Security<span></span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Legal workmate may supply you with a password and account designation upon completing the Site registration process. You are responsible for maintaining the confidentiality of the password and account and are fully responsible
+                                for all activities that occur under your password or account. You agree to immediately notify legal workmate of any unauthorized use of your password or account, or any other breach of security of which you are aware, and
+                                to ensure that you properly close out of your account at the end of each session. Legal workmate assumes no liability for any loss or damage arising from your failure to comply with this section.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-1 offers featured">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Cookies</span></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                        <li>The User is aware that cookie’ is a small piece of information stored by a web server on a web browser so it can later be traced back from that particular browser, and that cookies are useful for enabling the browser to remember
+                            information specific to a given user, including but not limited to a User’s login identification, password, etc. The User is aware that the Website places both permanent and temporary cookies in the User’s computer’s hard drive
+                            and web browser, and does hereby expressly consent to the same.</li>
+                        <li>The User is further aware that the Website uses data collection devices such as cookies on certain pages of the Website to help analyze web page flow, measure promotional effectiveness, and promote trust and safety, and that certain
+                            features of the Website are only available through the use of such cookies. While the User is free to decline the Website’s cookies if the User’s browser permits, the User may consequently be unable to use certain features
+                            on the Website</li>
+                        <li>Additionally, the User is aware that he/she might encounter ‘cookies’ or other similar devices on certain pages of the Website that are placed by third parties or affiliates of the Company/Website. The User expressly agrees and
+                            acknowledges that the Company/Website does not control the use of such cookies/other devices by third parties, that the Company/Website is in no way responsible for the same, and that the User assumes any and all risks in this
+                            regard.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="single" class="section-6 single featured">
+        <div class="container">
+            <div class="row">
+
+                <!-- Main -->
+                <div class="col-12 col-lg-12 p-0 align-self-top text">
+                    <div class="row intro m-0">
+                        <div class="col-12">
+                            <h2 style="font-family: 'Lato', sans-serif; margin-top: -10px;"><span class="featured">Security<span></span></span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">Transactions on the Website are secure and protected. Any information entered by the User when transacting on the Website is encrypted to protect the User against unintentional disclosure to third parties. The User’s credit
+                                and debit card information is not received, stored by or retained by the Company or the Website in any manner. This information is supplied by the User directly to the relevant payment gateway which is authorized to handle
+                                the information provided and is compliant with the regulations and requirements of various banks and institutions and payment franchisees that it is associated with.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="section-1 offers">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Refund Policy</span></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 align-self-center">
+                    <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                        <li>We thank you and appreciate your service or product purchase with us on our Website www.legalworkmate.com (after this referred to as “Legal Workmate (AIMFOX TECHNOLOGY PRIVATE LIMITED”). Please read this policy and the Legal Workmate
+                            terms and conditions carefully as they will give you essential information and guidelines about your rights and obligations as our customer, for any purchase or service we provide to you.</li>
+                    </ul>
+                    <p style="font-family: 'Open Sans', sans-serif; font-style: normal; text-align: justify;">We make every effort to provide the service to you as per the specifications and timelines mentioned against each service or product purchased by you from Legal Workmate, however, if, due to any reason, we are unable to provide to
+                        you the service or product you purchased from us, then you shall be entitled to a refund which shall be subject on the following situations:</p>
+                    <ul style="font-family: 'Open Sans', sans-serif; margin-left: 30px; text-align: justify;" id="SliderList2">
+                        <li>The Refund shall only be considered in the event there is a specific, visible deficiency with the service or product purchased from Legal Workmate.</li>
+                        <li>In the event a customer has paid for a service and then requests for a refund only because there was a change in mind, the Refund shall not be considered as there is no fault, defect, or onus on Legal Workmate.</li>
+                        <li>Refund requests shall not be entertained after the work has been shared with you in the event of a change of mind. However, we shall give you the option of using the amount paid for by you, for an alternative service in Legal Workmate
+                            amounting to the same value and the said amount could be applied in part or whole towards the said new service; and</li>
+                        <li>If the request for a refund has been raised 30 (thirty) days after the purchase of a service or product has been completed. The same has been intimated and indicated via email or through any form of communication stating that the
+                            work has been completed, then, such refund request shall be deemed invalid and shall not be considered.</li>
+                        <li>If Legal Workmate has approved the request for the Refund, the same shall be processed and intimated to you via email. This refund process could take a minimum of 14 (fourteen) business days to process and shall be credited to
+                            your bank account accordingly. We shall handle the refund process with care and ensure that the money spent by you is returned to you at the earliest.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Fun Facts -->
+    <section id="funfacts" class="section-4 odd counter funfacts">
+        <video class="full-image to-bottom grayscale" data-mask="70" src="assets/images/Funfacts.mp4" autoplay muted loop></video>
+        <div class="container" style="margin-top: -40px;">
+            <div class="row mb-md-5 text-center">
+                <div class="col-12">
+                    <h2 style="font-family: 'Lato', sans-serif;"><span class="featured"><span>Results</span></span> in Numbers</h2>
+                </div>
+            </div>
+            <div data-aos-id="counter" data-aos="fade-up" data-aos-delay="200" class="row justify-content-center text-center items">
+                <div class="col-12 col-md-6 col-lg-3 item">
+                    <div data-percent="150" class="radial">
+                        <span></span>
+                    </div>
+                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">Companies</h4>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 item">
+                    <div data-percent="1000" class="radial">
+                        <span></span>
+                    </div>
+                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">Clients</h4>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 item">
+                    <div data-percent="7" class="radial">
+                        <span></span>
+                    </div>
+                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">Years of Experience</h4>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 item">
+                    <div data-percent="15" class="radial">
+                        <span></span>
+                    </div>
+                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">Employees</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="blog" class="section-1 showcase blog-grid filter-section projects featured">
+        <div class="container">
+            <div class="row intro">
+                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
+                    <h2 style="font-family: 'Lato', sans-serif;">What our <span class="featured">Customers<span></span></span> Say About Us ?</h2>
+                </div>
+            </div>
+            <div class="col-md-offset-1 col-md-10" id='testimonial-div-css' style="margin-top: -50px; margin-bottom: -40px;">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " We had a wonderful experience and they were kind enough to adjust when we decide to change plan and other details. Always calm and cooperative even when we keep asking several questions over and over again. Great experience and would surely recommend
+                                the service and looking forward for a fruitful and good partnership for times to come. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">ADIL GAE</a>
+                            <small>- DIRECTOR </small>
+                        </h3>
+                        <p style="font-size: 14px;">PARSHEEN ENTERPRISES PRIVATE LIMITED</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I didn't know anything about how to open Pvt LTD n all.. starting from a scratch he helped me and did all work behalf of me. He will guide you from basics and what's good and what's not n all..had a great experience definitely in future also I will
+                                get my work done only from him. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">TIRTH KUMAR</a>
+                            <small>- DIRECTOR</small>
+                        </h3>
+                        <p style="font-size: 14px;"> CLAVIAN HEALTHCARE PRIVATE LIMITED</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I had got 2 of my private limited companies registered via Mr. Aman Parmar of Legal work mate. The experience was very good. The staff of legal work mate is very cooperative and fast. I shall be using their services again soon when we get GST filing
+                                done. Thanks. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">MIHIR SHAH</a>
+                            <small>- DIRECTOR</small>
+                        </h3>
+                        <p style="font-size: 14px;">GOLDENHORDE PRODUCTS PRIVATE LIMITED</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">" Most challenging part of the compliance for me in Mumbai was to finding an accountant and retaining him. Legal Workmate not only solved that problem of us but also co-ordinates with, practising chartered accountant associated
+                                with them for statutory audits "</p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">NITIN GUPTA</a>
+                            <small>- Managing Director</small>
+                        </h3>
+                        <p style="font-size: 14px;">MEDERAL PHARMACEUTICAL PRIVATE LIMITED</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " Legal Workmate helped me to start a section 8 company and takes care of all the companies’ compliance. Best part is I don’t have to visit separate accountant, company secretary, and chartered accountant anymore."
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">CHIRAG MAKWANA</a>
+                            <small>- Director</small>
+                        </h3>
+                        <p style="font-size: 14px;">Labour Employment and Environment Development Council</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " Legal Workmate (Aimfox Group) is highly recommended for NRI who don’t want to outsource all their compliance work. They provide me with all GST services like issuing e-way bill to refund application and QuickBooks accounting. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">PRANAB MOHAPATRA</a>
+                            <small>- Managing Partner</small>
+                        </h3>
+                        <p style="font-size: 14px;">VIERA CONSULTING SERVICES LLP</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I have used multiple offline and Online CA service. But, Services of Legal Workmate is the best of them due to their expertise in the domain, speed of delivery and business-friendly rates charged by them. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">MEHUL DESAI</a>
+                            <small>- Director</small>
+                        </h3>
+                        <p style="font-size: 14px;">SKYART PAINTS PVT LTD </p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I highly recommend Legal Workmate for new startups due to their swift and pocket-friendly services. Best part is our manager also provide us E-Way bill generation services, which is best for a person like me who wants to continue the MNC job and run
+                                business. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">PRASHANT PARMAR</a>
+                            <small>- Partner</small>
+                        </h3>
+                        <p style="font-size: 14px;">TECH SYSTEMS</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I highly recommend legal workmate for filing ITR. Their team help us with ITR filling of college professors and provide us with the best tax saving Investments Plans for risk neutral returns. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">AJAY SOLANKI</a>
+                            <small>- PROFESSOR</small>
+                        </h3>
+                        <p style="font-size: 14px;"></p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " The team helped our organisation from Incorporation of the company online to closing our books of accounts. All the directors of Misva Fire highly recommend Legal Workmate (Aimfox Group). "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">HIREN AMIN</a>
+                            <small></small>
+                        </h3>
+                        <p style="font-size: 14px;">MISVA FIRE SERVICE PVT LTD</p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " Your company is like miracle happend to me. Saved my 30k, and also got connected with Developers. I am still wondering. How your company is so Cost Efficient in providing legal services?! "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">UTSAV CHANDNANI </a>
+                            <small>- Director </small>
+                        </h3>
+                        <p style="font-size: 14px;"> TRIALBASE TECHNOLOGY PVT LTD </p>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="./assets/images/logo-testimonial.png">
+                        </div>
+                        <div class="testimonial-content" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <p style="font-family: 'Open Sans', sans-serif;">
+                                " I highly recommend legal workmate for filing ITR. Their team help us with ITR filling of college professors and provide us with the best tax saving Investments Plans for risk neutral returns. "
+                            </p>
+                        </div>
+                        <h3 class="testimonial-title" style="font-family: 'Open Sans', sans-serif; font-weight: 700;">
+                            <a href="#">PRASHANT PARMAR </a>
+                            <small>- Partner </small>
+                        </h3>
+                        <p style="font-size: 14px;"> TECH SYSTEMS </p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#testimonial-slider').owlCarousel({
+                items: 1,
+                itemsDesktop: [1000, 1],
+                itemsDesktopSmall: [979, 1],
+                itemsTablet: [768, 1],
+                pagination: false,
+                navigation: true,
+                navigationText: ["", ""],
+                slideSpeed: 1000,
+                autoPlay: true
+            });
+        });
+    </script>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section-6 form contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 pr-md-5 align-self-center text">
+                    <div class="row intro" style="margin-top: -45px;">
+                        <div class="col-12 p-0">
+                            <span class="pre-title m-0">Send a message</span>
+                            <h2>Get in <span class="featured"><span>Touch</span></span>
+                            </h2>
+                            <p>We will respond to your message as soon as possible.</p>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-bottom: -30px;">
+                        <div class="col-12 p-0">
+                            <form action="mailto:hello@legalworkmate.com" id="nexgen-simple-form" class="nexgen-simple-form">
+                                <input type="hidden" name="section" value="nexgen_form">
+
+                                <input type="hidden" name="reCAPTCHA">
+                                <!-- Remove this field if you want to disable recaptcha -->
+
+                                <div class="row form-group-margin">
+                                    <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                        <input type="text" name="name" class="form-control field-name" placeholder="Name">
+                                    </div>
+                                    <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                        <input type="email" name="email" class="form-control field-email" placeholder="Email">
+                                    </div>
+                                    <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                        <input type="text" name="phone" class="form-control field-phone" placeholder="Phone">
+                                    </div>
+                                    <div class="col-12 col-md-6 m-0 p-2 input-group">
+                                        <i class="icon-arrow-down mr-3"></i>
+                                        <select name="info" class="form-control field-info">
+                                        <option value="" selected disabled>Are you a new client</option>
+                                        <option>Yes, I am a potenial new client</option>
+                                        <option>Yes, I am a business client</option>
+                                        <option>Yes, I am a private client</option>
+                                        <option>No, I've already had a consultation</option>
+                                        <option>No, I am a permanent client</option>
+                                    </select>
+                                    </div>
+                                    <div class="col-12 m-0 p-2 input-group">
+                                        <textarea name="message" class="form-control field-message" placeholder="Describe your case"></textarea>
+                                    </div>
+                                    <div class="col-12 col-12 m-0 pl-md-2">
+                                        <span class="form-alert"></span>
+                                    </div>
+                                    <div class="col-12 input-group m-0 p-2">
+                                        <a class="btn primary-button">SEND</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="contacts">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div style="width: 10px;height: 10px;  float: left;"> <i class="fas fa-phone-alt mr-2"></i>
+                                </div>
+                                <div style="margin: 0 3.5rem; font-family: 'Open Sans', sans-serif;"><a href="#" class="nav-link"> +91 908-168-6565</a>
+                                    <a href="#" class="nav-link" style="font-family: 'Open Sans', sans-serif;"> +91 908-169-6565</a></div>
+                            </li>
+                            <li class="nav-item">
+                                <div style="width: 10px;height: 10px;  float: left;"> <i class="fas fa-envelope mr-2"></i>
+                                </div>
+                                <div style="margin: 0 3.5rem; font-family: 'Open Sans', sans-serif;">
+                                    <a href="mailto:hello@legalworkmate.com" class="nav-link">For any queries :
+                                    Hello@legalworkmate.com</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div style="width: 10px;height: 10px;  float: left;"> <i class="fas fa-rupee-sign mr-2"></i>
+                                </div>
+                                <div style="margin: 0 3.5rem; font-family: 'Open Sans', sans-serif;">
+                                    <a href="mailto:accounts@legalworkmate.com" class="nav-link">For billing queries :
+                                    accounts@legalworkmate.com</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <div style="width: 10px;height: 10px;  float: left;"> <i class="fas fa-paper-plane mr-2"></i> </div>
+                                <div style="margin: 0 3.5rem; font-family: 'Open Sans', sans-serif;">
+
+                                    <a href="mailto:partner@aimfoxgroup.com" class="nav-link">For partner program :
+                                    partner@aimfoxgroup.com</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <!-- Footer [content] -->
+        <section id="footer" class="odd footer offers">
+            <div class="container" style="margin-top: -70px;">
+                <div class="row">
+                    <div class="col-12 col-lg-3 footer-left">
+                        <!-- Navbar Brand-->
+                        <a class="navbar-brand" href="/">
+                            <img src="assets/images/logo.png" alt="Legal Workmate" style="width: 183px; height: 66px;">
+
+                        </a>
+
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a href="#contact"><img src="assets/images/startupindia-logo-300x90.png" style=" margin-top: 30px;" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                                <div style="font-weight: 500;">
+
+                                    <a href="mailto:partner@aimfoxgroup.com" class="nav-link">Our Company recognized by the Department of Industrial Policy and Promotion Government Of India – STARTUP INDIA</a>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="col-12 col-lg-9 p-0 footer-right">
+                        <div class="row items">
+                            <div class="col-12 col-lg-6 item">
+                                <div class="card">
+                                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">START A BUSINESS</h4>
+                                    <a href="pvtltd.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Private Limited Company</a>
+                                    <a href="OPC-Page.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>One Person Company</a>
+                                    <a href="LLP-Page.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Limited Liability Partnership</a>
+                                    <a href="Partnership-Inc.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Partnership Incorporation</a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 item">
+                                <div class="card">
+                                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">COMPLIANCE</h4>
+                                    <a href="Accounting.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Accounting</a>
+                                    <a href="Complete-Startup-Package.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Complete Startup Package</a>
+                                    <a href="New-Company-ROC-Compliance.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>New Company ROC Compliance</a>
+                                    <a href="Payroll-Compliance.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Payroll Compliance</a>
+                                    <a href="ROC-Compliance-For-Company.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>ROC Compliance for company</a>
+                                    <a href="ROC-Compliance-LLP.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>ROC Compliance for LLP</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 item">
+                                <div class="card">
+                                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">REGISTRATION</h4>
+                                    <a href="GST-Reg.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>GST Registration</a>
+                                    <a href="PF-ESIC.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>PF &amp; ESIC Registration</a>
+                                    <a href="Trademark-Reg.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Trademark Registration</a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 item">
+                                <div class="card">
+                                    <h4 style="font-family: 'Open Sans', sans-serif; font-weight: 700;">TAX FILING</h4>
+                                    <a href="gstRF.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>GST return Filing</a>
+                                    <a href="income-tax-return-filing.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Income Tax return Filing</a>
+                                    <a href="tds-return-filling.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>TDS return Filing</a>
+                                    <a href="talk-to-expert-and-notice-reply.html" style="font-family: 'Open Sans', sans-serif;"><i class="icon-arrow-right"></i>Talk to expert &amp; notice reply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Copyright -->
+        <section id="copyright" class="p-3 odd copyright" style="margin-top: -80px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 p-3 text-center text-lg-right">
+                        <!--
+                                Suggestion: Replace the text above with a description of your website.
+                             -->
+                    </div>
+                    <div class="col-12 col-md-12 p-3 text-left">
+                        <p style="font-family: 'Open Sans', sans-serif;">© 2020 Legal Workmate is product by <a href="#" target="_blank">AIMFOX TECHNOLOGY PRIVATE LIMITED</a> | <a href="Terms-Conditions.html" target="_blank">Terms &amp; Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+    <!-- Modal [search] -->
+    <div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="modal-body">
+                    <form class="row">
+                        <div class="col-12 p-0 align-self-center">
+                            <div class="row">
+                                <div class="col-12 p-0">
+                                    <h2>What are you looking for?</h2>
+                                    <div class="badges">
+                                        <span class="badge"><a href="#">Consulting</a></span>
+                                        <span class="badge"><a href="#">Audit</a></span>
+                                        <span class="badge"><a href="#">Assurance</a></span>
+                                        <span class="badge"><a href="#">Advisory</a></span>
+                                        <span class="badge"><a href="#">Financial</a></span>
+                                        <span class="badge"><a href="#">Capital Markets</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group">
+                                    <input type="text" class="form-control" placeholder="Enter Keywords">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group align-self-center">
+                                    <button class="btn primary-button">SEARCH</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal [sign] -->
+    <div id="sign" class="p-0 modal fade" role="dialog" aria-labelledby="sign" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="modal-body">
+                    <form action="/" class="row">
+                        <div class="col-12 p-0 align-self-center">
+                            <div class="row">
+                                <div class="col-12 p-0 pb-3">
+                                    <h2>Sign In</h2>
+                                    <p>Don't have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="col-12 p-0 input-group">
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group align-self-center">
+                                    <button class="btn primary-button">SIGN IN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal [register] -->
+    <div id="register" class="p-0 modal fade" role="dialog" aria-labelledby="register" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="modal-body">
+                    <form action="/" class="row">
+                        <div class="col-12 p-0 align-self-center">
+                            <div class="row">
+                                <div class="col-12 p-0 pb-3">
+                                    <h2>Register</h2>
+                                    <p>Have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group">
+                                    <input type="text" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="col-12 p-0 input-group">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="col-12 p-0 input-group">
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                                <div class="col-12 p-0 input-group">
+                                    <input type="password" class="form-control" placeholder="Confirm Password" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 p-0 input-group align-self-center">
+                                    <button class="btn primary-button">REGISTER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal [map] -->
+    <div id="map" class="p-0 modal fade" role="dialog" aria-labelledby="map" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header absolute" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="modal-body p-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.123073808986!2d12.490042215441486!3d41.89021017922119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseu!5e0!3m2!1spt-BR!2sbr!4v1594148229878!5m2!1spt-BR!2sbr"
+                        width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal [responsive menu] -->
+    <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-slideout" role="document">
+            <div class="modal-content full">
+                <div class="modal-header" data-dismiss="modal">
+                    <i class="icon-close fas fa-arrow-right"></i>
+                </div>
+                <div class="menu modal-body">
+                    <div class="row w-100">
+                        <div class="items p-0 col-12 text-center">
+                            <!-- Append [navbar] -->
+                        </div>
+                        <div class="contacts p-0 col-12 text-center">
+                            <!-- Append [navbar] -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll [to top] -->
+    <div class="floating-container">
+        <div class="floating-button"><i class="material-icons" style="margin-top: 20px;">support_agent</i></div>
+        <div class="element-container">
+    
+            <a href="callto:+919081696565"> <span class="float-element tooltip-left">
+                    <i class="material-icons" style="align-items: center;">phone
+                    </i></a>
+            </span>
+            <a href="mailto:hello@legalworkmate.com"><span class="float-element">
+                    <i class="material-icons">email
+                    </i></a>
+            </span>
+            <a href="https://wa.me/+919081686565"><span class="float-element">
+                    <i class="material-icons">chat</i></a>
+            </span>
+        </div>
+    </div>
+
+    <!-- ==============================================
+        Google reCAPTCHA // Put your site key here
+        =============================================== -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+
+    <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+
+    <script>
+        const items = document.querySelectorAll(".accordion a");
+
+        function toggleAccordion() {
+            this.classList.toggle('active');
+            this.nextElementSibling.classList.toggle('active');
+        }
+        items.forEach(item => item.addEventListener('click', toggleAccordion));
+    </script>
+
+    <!-- <script src="assets/js/vendor/jquery.min.js"></script> -->
+    <script src="assets/js/vendor/jquery.easing.min.js"></script>
+    <script src="assets/js/vendor/jquery.inview.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/ponyfill.min.js"></script>
+    <script src="assets/js/vendor/slider.min.js"></script>
+    <script src="assets/js/vendor/animation.min.js"></script>
+    <script src="assets/js/vendor/progress-radial.min.js"></script>
+    <script src="assets/js/vendor/bricklayer.min.js"></script>
+    <script src="assets/js/vendor/gallery.min.js"></script>
+    <script src="assets/js/vendor/shuffle.min.js"></script>
+    <script src="assets/js/vendor/cookie-notice.min.js"></script>
+    <script src="assets/js/vendor/particles.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/documents.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+    <!-- ==============================================
+        Particles
+        =============================================== -->
+    <script>
+        particles('squares', 'particles-1');
+    </script>
+
+</body>
+
+</html>
